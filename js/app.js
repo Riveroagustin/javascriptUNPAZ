@@ -1,11 +1,7 @@
-//console.log('Hola');
-
-//console.log (nombre);
-
-
-//console.log("Este es nuestro primer programa de javascript");
-//console.log("Este es nuestro segundo programa de javascript");
 nombreUsuario = prompt("Ingrese su nombre: ");
 console.log("su nombre es " + nombreUsuario);
-edad = prompt("Cuántos años tenés?: ");
-console.log("Tenés " + edad + "años");
+fechaact = prompt("Ingrese fecha actual: ");
+fechanac = prompt("Ingrese su fecha de nacimiento: ");
+edad = fechaact - fechanac;
+
+console.log("Tenés " + edad + " años");
